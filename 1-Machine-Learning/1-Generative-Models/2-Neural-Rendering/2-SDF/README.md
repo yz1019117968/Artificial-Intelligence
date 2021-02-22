@@ -30,7 +30,7 @@ Humans possess an impressive intuition for 3D shapes: given partial observations
 
 ### DeepSDF
 
-[Deepsdf Learning continuous signed distance functions for shape representation](https://arxiv.org/abs/1901.05103)
+[DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation](https://arxiv.org/abs/1901.05103)
 
 **[`CVPR 2019`]**	**[`UW, MIT,Facebook`]**
 
@@ -81,3 +81,8 @@ $$
 $$
 where $\mathbf{x}_j$ are spatial coordinates, and $s_j$ are the signed distances at these spatial coordinates
 
+
+
+
+
+A point set generation network for 3d object reconstruction from a single image
