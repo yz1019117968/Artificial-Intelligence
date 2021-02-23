@@ -1,3 +1,5 @@
+[toc]
+
 # Neural Rendering Notes
 
 Related repositories:
@@ -25,6 +27,40 @@ Computer graphics + generative model two areas come together -> neural rendering
 The first publication that used the term "neural rendering" is *Generative Query Network* (GQN). A newest state-of-the-art report formally defines *Neural Rendering* as:
 
 > Deep image or video generation approaches that enable explicit or implicit control of scene properties such as illumination, camera parameters, pose, geometry, appearance, and semantic structure.
+
+
+
+## Challenge/Direction
+
+**3D Representation**
+
+- methods
+
+我们既可以用一段code来表征，也可以用神经网络的一组权重来表征
+
+从2D表征引入，有什么意义呢---压缩大小，提取特征，
+
+很自然的迁移到3D表征
+
+**Representation Template**
+
+这是为了提高表征效率的一个方法，也是非常自然的，
+
+带来的好处有，速度更快，只需要在模板上进行修改 （想想身边所有模板的好处）
+
+**Style Transfer**
+
+类比于image的style transfer，舶来主义
+
+**Rendering**
+
+这不是我们研究的重点，拿来直接用，主要就是光影的问题
+
+这里面又还有分支
+
+**Relight**
+
+---
 
 
 
@@ -89,6 +125,28 @@ Neural light transport for relighting and view synthesis
 
 
 
+## 111
+
+**visual quality** 
+
+> low-resolution output, overly smoothed, discontinuous surfaces, topological noise and irregularities
+
+
+
+## Shape Generation
+
+Learning Implicit Fields for Generative Shape Modeling
+
+> implicit field decoder
+
+
+
+
+
+
+
+
+
 ## Research Teams
 
 [Berkeley Artificial Intelligence Research Lab (BAIR)](https://bair.berkeley.edu/)
@@ -129,6 +187,12 @@ Selected works: `SRN` | `MetaSDF`
 - PhD. [Jeong Joon Park](https://jjparkcv.github.io/)
 
 Selected works: `Nerfies` | `DeepSDF`
+
+
+
+
+
+
 
 
 
