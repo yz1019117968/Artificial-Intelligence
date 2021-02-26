@@ -10,25 +10,30 @@
 
 
 
-不同GAN的比较论文：
-
-[Are GANs Created Equal? A Large-Scale Study]()
+2018年谷歌的一篇 [论文](Are GANs Created Equal? A Large-Scale Study) 比较了不同GAN的表现，得出的结论是 **通过调参和重新训练，GAN的变种和最原始的非饱和GAN性能差不多**。
 
 
 
+如何简单又清晰地描述GAN是我一直在找寻的，所以这里给出我的一个总结：
 
-
-### 用于衡量的Loss
-
-
-
-### 为了解决训练稳定性
+> GAN
 
 
 
-### 为了解决训练收敛性
+### GAN的评价指标
 
+具体请看：
 
+主要包括了 Inception Score (IS) & Fréchet Inception Distance (FID).
+
+### GAN的训练
+
+- Loss function
+- 缺点解决
+  - 稳定性
+  - 收敛性
+
+### 
 
 train a discriminator to distinguish real samples in the training dataset from fake samples synthesized by the generator. the generator aims to deceive the discriminator by producing ever more realistic samples. The training procedure continues until the generator wins the adversarial game; that is, the discriminator cannot make a better decision than randomly guessing whether a particular sample is fake or real.
 
